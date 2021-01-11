@@ -3,7 +3,8 @@ import Header from "./components/Header"
 import Footer from "./components/Footer";
 import ContactInfo from "./components/ContactInfo"
 import BrandStatement from "./components/BrandStatement"
-import DesignedApps from "./components/DesignedApps";
+import DeployedApps from "./components/DeployedApps";
+import Repo from "./components/Repo"
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Header />
       <ContactInfo />
       <BrandStatement />
+      <DeployedApps />
+      <Repo />
 
       <Footer />
 
