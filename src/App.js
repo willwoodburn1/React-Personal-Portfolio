@@ -1,23 +1,20 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header"
 import Footer from "./components/Footer";
-import ContactInfo from "./components/ContactInfo"
-import BrandStatement from "./components/BrandStatement"
-import DeployedApps from "./components/DeployedApps";
-import Repo from "./components/Repo"
+import Main from "./pages/Main"
+
 
 function App() {
   return (
-    <div>
-      <Header />
-      <ContactInfo />
-      <BrandStatement />
-      <DeployedApps />
-      <Repo />
+    <Router>
+      <div>
+        <Header />
+        <Route exact path="/main" component={Main} />
+        <Footer />
+      </div>
+    </Router>
 
-      <Footer />
-
-    </div>
   );
 }
 
