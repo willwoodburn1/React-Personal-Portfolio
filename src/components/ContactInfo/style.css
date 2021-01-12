@@ -1,4 +1,7 @@
 #contactDetails {
-    border: 1px solid green;
+
     text-align: center;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: -70px;
 }
