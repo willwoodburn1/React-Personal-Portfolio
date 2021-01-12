@@ -8,4 +8,5 @@ Provided the links in the header to my resume, github,a nd linkedin accounts
 Made those links accessible
 Made the linsk in the header that changed pages between title and images work
 Wrote out readme file
+Deployed to Heroku
 
